@@ -1,0 +1,38 @@
+header {
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+.lista-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.lista-menu__item {
+    list-style: none;
+}
+
+.lista-menu__link {
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.lista-menu__link:hover {
+    text-decoration: underline;
+}
+
+.container__botao {
+    display: none; /* Assuming you use JavaScript for menu toggling */
+}
